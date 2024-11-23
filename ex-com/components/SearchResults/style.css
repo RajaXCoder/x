@@ -1,0 +1,21 @@
+.search-results-page {
+  padding: 20px;
+}
+
+.search-results-page h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.search-results-page p {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+}

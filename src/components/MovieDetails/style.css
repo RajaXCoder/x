@@ -1,0 +1,56 @@
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.movie-info {
+  margin-bottom: 30px;
+}
+
+.movie-info img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.movie-info h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.movie-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.movie-cast {
+  margin-top: 20px;
+}
+
+.movie-cast h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cast-card {
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cast-card p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
